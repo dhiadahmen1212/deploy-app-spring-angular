@@ -48,4 +48,5 @@ jobs:
           docker compose up -d
           sleep 20
 
-      
+      - name: Check running containers
+        run: docker ps
